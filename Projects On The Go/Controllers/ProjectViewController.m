@@ -28,7 +28,7 @@
 -(id)initWithStyle:(UITableViewStyle)style{
     self = [super initWithStyle:style];
     if (self) {
-        self.title = @"Projects";
+        self.title = @"Health Plans";
         self.enablePullToRefresh = YES;
         self.fetchLimit = 10;
     }
@@ -45,7 +45,13 @@
         UIBarButtonItem *addProject = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                    target:self
                                                                                    action:@selector(addProject:)];
-        [self.navigationItem setRightBarButtonItem:addProject];
+//        [self.navigationItem setRightBarButtonItem:addProject];
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Are we admin?"
+//                                                        message:@"Yes we are!"
+//                                                       delegate:nil
+//                                              cancelButtonTitle:@"OK"
+//                                              otherButtonTitles:nil];
+//        [alert show];
     }
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
 }

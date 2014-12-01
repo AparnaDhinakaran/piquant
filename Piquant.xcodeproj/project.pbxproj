@@ -87,6 +87,10 @@
 		37919085177D6AA40012DC04 /* aud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37919083177D6AA40012DC04 /* aud@2x.png */; };
 		37B74472178AD86B008194E0 /* EditMilestoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B74471178AD86B008194E0 /* EditMilestoneController.m */; };
 		37E6E930177EF6CB00187B7F /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */; };
+		A7E6E9821A2C64C800F4A6D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */; };
+		A7E6E98E1A2C7B9F00F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */; };
+		A7E6E9901A2C7C5100F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */; };
+		A7E6E9941A2C7CF400F4A6D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9931A2C7CF400F4A6D4 /* Default.png */; };
 		BA1FC7AF17B39C620011E5B1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FC7AE17B39C620011E5B1 /* Twitter.framework */; };
 		BA1FC7B117B39C670011E5B1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FC7B017B39C670011E5B1 /* Accounts.framework */; };
 		BA1FC7B317B39C6B0011E5B1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FC7B217B39C6B0011E5B1 /* Social.framework */; };
@@ -103,9 +107,9 @@
 		BAAB6E31176F223F007A2B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E2F176F223F007A2B1C /* InfoPlist.strings */; };
 		BAAB6E33176F223F007A2B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAB6E32176F223F007A2B1C /* main.m */; };
 		BAAB6E37176F223F007A2B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAB6E36176F223F007A2B1C /* AppDelegate.m */; };
-		BAAB6E39176F223F007A2B1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E38176F223F007A2B1C /* Default.png */; };
-		BAAB6E3B176F223F007A2B1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E3A176F223F007A2B1C /* Default@2x.png */; };
-		BAAB6E3D176F223F007A2B1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E3C176F223F007A2B1C /* Default-568h@2x.png */; };
+		BAAB6E39176F223F007A2B1C /* Default - OLD.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E38176F223F007A2B1C /* Default - OLD.png */; };
+		BAAB6E3B176F223F007A2B1C /* Default@2x - OLD.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E3A176F223F007A2B1C /* Default@2x - OLD.png */; };
+		BAAB6E3D176F223F007A2B1C /* Default-568h@2x - OLD.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB6E3C176F223F007A2B1C /* Default-568h@2x - OLD.png */; };
 		BAAB6E61176F2566007A2B1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAB6E60176F2566007A2B1C /* QuartzCore.framework */; };
 		BAAB6E63176F2579007A2B1C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAB6E62176F2579007A2B1C /* Security.framework */; };
 		BAAB6E65176F2581007A2B1C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAB6E64176F2581007A2B1C /* SystemConfiguration.framework */; };
@@ -234,6 +238,10 @@
 		37BEF2E11779E18000D7A040 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		37E6E92E177EF6CA00187B7F /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
 		37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
+		A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A7E6E9931A2C7CF400F4A6D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BA1FC7AE17B39C620011E5B1 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		BA1FC7B017B39C670011E5B1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BA1FC7B217B39C6B0011E5B1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -247,20 +255,20 @@
 		BA7E5A9C17732496000DEB93 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
 		BA87629C17B607C100A6CFB7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
 		BA87629E17B607C800A6CFB7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../icon@2x.png"; sourceTree = "<group>"; };
-		BA9F2A631796A4AE007342D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		BAAB6E23176F223F007A2B1C /* Projects On The Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projects On The Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9F2A631796A4AE007342D3 /* Default-568h@2x - OLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x - OLD.png"; path = "../../Default-568h@2x - OLD.png"; sourceTree = "<group>"; };
+		BAAB6E23176F223F007A2B1C /* Piquant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piquant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAB6E26176F223F007A2B1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAAB6E28176F223F007A2B1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAAB6E2A176F223F007A2B1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BAAB6E2E176F223F007A2B1C /* Projects On The Go-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Projects On The Go-Info.plist"; sourceTree = "<group>"; };
 		BAAB6E30176F223F007A2B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAAB6E32176F223F007A2B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BAAB6E34176F223F007A2B1C /* Projects On The Go-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Projects On The Go-Prefix.pch"; sourceTree = "<group>"; };
+		BAAB6E34176F223F007A2B1C /* Piquant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Piquant-Prefix.pch"; sourceTree = "<group>"; };
 		BAAB6E35176F223F007A2B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAAB6E36176F223F007A2B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAAB6E38176F223F007A2B1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BAAB6E3A176F223F007A2B1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BAAB6E3C176F223F007A2B1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BAAB6E38176F223F007A2B1C /* Default - OLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default - OLD.png"; sourceTree = "<group>"; };
+		BAAB6E3A176F223F007A2B1C /* Default@2x - OLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x - OLD.png"; sourceTree = "<group>"; };
+		BAAB6E3C176F223F007A2B1C /* Default-568h@2x - OLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x - OLD.png"; sourceTree = "<group>"; };
 		BAAB6E60176F2566007A2B1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BAAB6E62176F2579007A2B1C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BAAB6E64176F2581007A2B1C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -441,8 +449,9 @@
 			isa = PBXGroup;
 			children = (
 				BA87629E17B607C800A6CFB7 /* icon@2x.png */,
+				A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */,
 				BA87629C17B607C100A6CFB7 /* icon.png */,
-				BA9F2A631796A4AE007342D3 /* Default-568h@2x.png */,
+				BA9F2A631796A4AE007342D3 /* Default-568h@2x - OLD.png */,
 				375110971782BD92001AF66E /* addButton.png */,
 				37919049177D69410012DC04 /* Attachments */,
 				376FB90617708BE6001CC3F0 /* body_bg.png */,
@@ -522,7 +531,7 @@
 		BAAB6E24176F223F007A2B1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAAB6E23176F223F007A2B1C /* Projects On The Go.app */,
+				BAAB6E23176F223F007A2B1C /* Piquant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,12 +582,15 @@
 			isa = PBXGroup;
 			children = (
 				BAAB6E2E176F223F007A2B1C /* Projects On The Go-Info.plist */,
+				A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */,
+				A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */,
+				A7E6E9931A2C7CF400F4A6D4 /* Default.png */,
 				BAAB6E2F176F223F007A2B1C /* InfoPlist.strings */,
 				BAAB6E32176F223F007A2B1C /* main.m */,
-				BAAB6E34176F223F007A2B1C /* Projects On The Go-Prefix.pch */,
-				BAAB6E38176F223F007A2B1C /* Default.png */,
-				BAAB6E3A176F223F007A2B1C /* Default@2x.png */,
-				BAAB6E3C176F223F007A2B1C /* Default-568h@2x.png */,
+				BAAB6E34176F223F007A2B1C /* Piquant-Prefix.pch */,
+				BAAB6E38176F223F007A2B1C /* Default - OLD.png */,
+				BAAB6E3A176F223F007A2B1C /* Default@2x - OLD.png */,
+				BAAB6E3C176F223F007A2B1C /* Default-568h@2x - OLD.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -601,9 +613,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAAB6E22176F223F007A2B1C /* Projects On The Go */ = {
+		BAAB6E22176F223F007A2B1C /* Piquant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAAB6E40176F223F007A2B1C /* Build configuration list for PBXNativeTarget "Projects On The Go" */;
+			buildConfigurationList = BAAB6E40176F223F007A2B1C /* Build configuration list for PBXNativeTarget "Piquant" */;
 			buildPhases = (
 				BAAB6E1F176F223F007A2B1C /* Sources */,
 				BAAB6E20176F223F007A2B1C /* Frameworks */,
@@ -613,9 +625,9 @@
 			);
 			dependencies = (
 			);
-			name = "Projects On The Go";
+			name = Piquant;
 			productName = "Projects On The Go";
-			productReference = BAAB6E23176F223F007A2B1C /* Projects On The Go.app */;
+			productReference = BAAB6E23176F223F007A2B1C /* Piquant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -627,7 +639,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = raweng;
 			};
-			buildConfigurationList = BAAB6E1E176F223F007A2B1C /* Build configuration list for PBXProject "Projects On The Go" */;
+			buildConfigurationList = BAAB6E1E176F223F007A2B1C /* Build configuration list for PBXProject "Piquant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -639,7 +651,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAAB6E22176F223F007A2B1C /* Projects On The Go */,
+				BAAB6E22176F223F007A2B1C /* Piquant */,
 			);
 		};
 /* End PBXProject section */
@@ -650,9 +662,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAB6E31176F223F007A2B1C /* InfoPlist.strings in Resources */,
-				BAAB6E39176F223F007A2B1C /* Default.png in Resources */,
-				BAAB6E3B176F223F007A2B1C /* Default@2x.png in Resources */,
-				BAAB6E3D176F223F007A2B1C /* Default-568h@2x.png in Resources */,
+				BAAB6E39176F223F007A2B1C /* Default - OLD.png in Resources */,
+				BAAB6E3B176F223F007A2B1C /* Default@2x - OLD.png in Resources */,
+				BAAB6E3D176F223F007A2B1C /* Default-568h@2x - OLD.png in Resources */,
 				3766BF64176F3A720082D038 /* ButtonMenu.png in Resources */,
 				3766BF65176F3A720082D038 /* ButtonMenu@2x.png in Resources */,
 				376FB8FB17707718001CC3F0 /* earth.png in Resources */,
@@ -668,6 +680,7 @@
 				BA7E5A90177320AB000DEB93 /* CreateProjectViewController.xib in Resources */,
 				377A59A71774221400043933 /* TaskViewCell.xib in Resources */,
 				377A59BA177447B300043933 /* spin.png in Resources */,
+				A7E6E9941A2C7CF400F4A6D4 /* Default.png in Resources */,
 				377A59BB177447B300043933 /* spin@2x.png in Resources */,
 				375B0D6D17757A1700039682 /* no_bugs.png in Resources */,
 				3791904C177D697C0012DC04 /* jpg.png in Resources */,
@@ -678,6 +691,7 @@
 				37919055177D69A40012DC04 /* ppt@2x.png in Resources */,
 				37919058177D69B40012DC04 /* doc.png in Resources */,
 				37919059177D69B40012DC04 /* doc@2x.png in Resources */,
+				A7E6E9821A2C64C800F4A6D4 /* Default@2x.png in Resources */,
 				3791905C177D69C30012DC04 /* file.png in Resources */,
 				3791905D177D69C30012DC04 /* file@2x.png in Resources */,
 				37919062177D69DE0012DC04 /* xls.png in Resources */,
@@ -700,6 +714,8 @@
 				37919080177D6A950012DC04 /* bmp.png in Resources */,
 				37919081177D6A950012DC04 /* bmp@2x.png in Resources */,
 				37919084177D6AA40012DC04 /* aud.png in Resources */,
+				A7E6E98E1A2C7B9F00F4A6D4 /* Default-568h@2x.png in Resources */,
+				A7E6E9901A2C7C5100F4A6D4 /* Default-568h@2x.png in Resources */,
 				37919085177D6AA40012DC04 /* aud@2x.png in Resources */,
 				375110981782BD92001AF66E /* addButton.png in Resources */,
 				BA6D31901795A1DF00ACD7FD /* AttachmentViewController.xib in Resources */,
@@ -836,11 +852,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Projects On The Go/Projects On The Go-Prefix.pch";
+				GCC_PREFIX_HEADER = "Projects On The Go/Piquant-Prefix.pch";
 				INFOPLIST_FILE = "Projects On The Go/Projects On The Go-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Piquant;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -853,11 +869,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Projects On The Go/Projects On The Go-Prefix.pch";
+				GCC_PREFIX_HEADER = "Projects On The Go/Piquant-Prefix.pch";
 				INFOPLIST_FILE = "Projects On The Go/Projects On The Go-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Piquant;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -865,7 +881,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAAB6E1E176F223F007A2B1C /* Build configuration list for PBXProject "Projects On The Go" */ = {
+		BAAB6E1E176F223F007A2B1C /* Build configuration list for PBXProject "Piquant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAB6E3E176F223F007A2B1C /* Debug */,
@@ -874,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAAB6E40176F223F007A2B1C /* Build configuration list for PBXNativeTarget "Projects On The Go" */ = {
+		BAAB6E40176F223F007A2B1C /* Build configuration list for PBXNativeTarget "Piquant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAB6E41176F223F007A2B1C /* Debug */,

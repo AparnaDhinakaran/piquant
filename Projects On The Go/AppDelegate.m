@@ -33,7 +33,7 @@
     // [Built initializeWithApiKey:@"APPLICATION_API_KEY" andUid:@"APPLICATION_UID"];
     // ----------------------------------------------------------------------------
     
-    [Built initializeWithApiKey:@"api_key_here" andUid:@"app_uid_here"];
+    [Built initializeWithApiKey:@"blt0435cac787cb96dc" andUid:@"3"];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -84,11 +84,11 @@
 #pragma mark GoogleAppSettingDelegate 
 
 - (NSString*)googleAppClientID {
-    return @"client_id_here";
+    return @"534049655711-0qbepsopuob4dotuuaverdv5jahqhtl0.apps.googleusercontent.com";
 }
 
 - (NSString*)googleAppClientSecret {
-    return @"secret_here";
+    return @"PZ5DtI-d68WDNIJpmTmWH1w9";
 }
 
 
