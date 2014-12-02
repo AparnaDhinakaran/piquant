@@ -522,7 +522,7 @@
 			children = (
 				23323C301A1E3AA700BC79AC /* BuiltIO.bundle */,
 				23323C311A1E3AA700BC79AC /* BuiltIO.framework */,
-				BAAB6E2C176F223F007A2B1C /* Projects On The Go */,
+				BAAB6E2C176F223F007A2B1C /* Piquant */,
 				BAAB6E25176F223F007A2B1C /* Frameworks */,
 				BAAB6E24176F223F007A2B1C /* Products */,
 			);
@@ -557,7 +557,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BAAB6E2C176F223F007A2B1C /* Projects On The Go */ = {
+		BAAB6E2C176F223F007A2B1C /* Piquant */ = {
 			isa = PBXGroup;
 			children = (
 				378E21B1177C4E2800ADF76D /* Resources */,
@@ -575,6 +575,7 @@
 				3766BF53176F35A10082D038 /* Vendors */,
 				FAAA19B217731CD2006CC36F /* Views */,
 			);
+			name = Piquant;
 			path = "Projects On The Go";
 			sourceTree = "<group>";
 		};
