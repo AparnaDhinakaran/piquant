@@ -87,9 +87,9 @@
 		37919085177D6AA40012DC04 /* aud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37919083177D6AA40012DC04 /* aud@2x.png */; };
 		37B74472178AD86B008194E0 /* EditMilestoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B74471178AD86B008194E0 /* EditMilestoneController.m */; };
 		37E6E930177EF6CB00187B7F /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */; };
-		A7E6E9821A2C64C800F4A6D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */; };
+		A7E6E9821A2C64C800F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9811A2C64C800F4A6D4 /* Default-568h@2x.png */; };
 		A7E6E98E1A2C7B9F00F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */; };
-		A7E6E9901A2C7C5100F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */; };
+		A7E6E9901A2C7C5100F4A6D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98F1A2C7C5100F4A6D4 /* Default@2x.png */; };
 		A7E6E9941A2C7CF400F4A6D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9931A2C7CF400F4A6D4 /* Default.png */; };
 		BA1FC7AF17B39C620011E5B1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FC7AE17B39C620011E5B1 /* Twitter.framework */; };
 		BA1FC7B117B39C670011E5B1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FC7B017B39C670011E5B1 /* Accounts.framework */; };
@@ -238,9 +238,9 @@
 		37BEF2E11779E18000D7A040 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		37E6E92E177EF6CA00187B7F /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
 		37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
-		A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A7E6E9811A2C64C800F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A7E6E98F1A2C7C5100F4A6D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A7E6E9931A2C7CF400F4A6D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BA1FC7AE17B39C620011E5B1 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		BA1FC7B017B39C670011E5B1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -583,8 +583,8 @@
 			isa = PBXGroup;
 			children = (
 				BAAB6E2E176F223F007A2B1C /* Projects On The Go-Info.plist */,
-				A7E6E9811A2C64C800F4A6D4 /* Default@2x.png */,
-				A7E6E98F1A2C7C5100F4A6D4 /* Default-568h@2x.png */,
+				A7E6E9811A2C64C800F4A6D4 /* Default-568h@2x.png */,
+				A7E6E98F1A2C7C5100F4A6D4 /* Default@2x.png */,
 				A7E6E9931A2C7CF400F4A6D4 /* Default.png */,
 				BAAB6E2F176F223F007A2B1C /* InfoPlist.strings */,
 				BAAB6E32176F223F007A2B1C /* main.m */,
@@ -692,7 +692,7 @@
 				37919055177D69A40012DC04 /* ppt@2x.png in Resources */,
 				37919058177D69B40012DC04 /* doc.png in Resources */,
 				37919059177D69B40012DC04 /* doc@2x.png in Resources */,
-				A7E6E9821A2C64C800F4A6D4 /* Default@2x.png in Resources */,
+				A7E6E9821A2C64C800F4A6D4 /* Default-568h@2x.png in Resources */,
 				3791905C177D69C30012DC04 /* file.png in Resources */,
 				3791905D177D69C30012DC04 /* file@2x.png in Resources */,
 				37919062177D69DE0012DC04 /* xls.png in Resources */,
@@ -716,7 +716,7 @@
 				37919081177D6A950012DC04 /* bmp@2x.png in Resources */,
 				37919084177D6AA40012DC04 /* aud.png in Resources */,
 				A7E6E98E1A2C7B9F00F4A6D4 /* Default-568h@2x.png in Resources */,
-				A7E6E9901A2C7C5100F4A6D4 /* Default-568h@2x.png in Resources */,
+				A7E6E9901A2C7C5100F4A6D4 /* Default@2x.png in Resources */,
 				37919085177D6AA40012DC04 /* aud@2x.png in Resources */,
 				375110981782BD92001AF66E /* addButton.png in Resources */,
 				BA6D31901795A1DF00ACD7FD /* AttachmentViewController.xib in Resources */,
