@@ -55,6 +55,15 @@
     }
     // Commented this out
     //[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
+    
+    // Create text field near center (not perfect) and add to current view
+    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(self.view.center.x * .1, self.view.center.y - 100, 275, 50)];
+    tf.textColor = [UIColor whiteColor];
+    tf.font = [UIFont fontWithName:@"Helvetica-Bold" size:25];
+    tf.backgroundColor=[UIColor colorWithRed:145.0/255.0 green:179.0/255.0 blue:73.0/255.0 alpha:1.0f];
+    UIColor *color = [UIColor whiteColor];
+    tf.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"What did you eat?" attributes:@{NSForegroundColorAttributeName: color}];
+    [self.view addSubview:tf];
 }
 
 //UIAlertView with textfield to input the name of the project
