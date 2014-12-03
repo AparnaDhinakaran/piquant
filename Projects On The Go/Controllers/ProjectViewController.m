@@ -53,7 +53,8 @@
 //                                              otherButtonTitles:nil];
 //        [alert show];
     }
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
+    // Commented this out
+    //[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
 }
 
 //UIAlertView with textfield to input the name of the project

@@ -20,7 +20,7 @@
 #import "ProjectViewController.h"
 
 @interface AppDelegate ()<BuiltUIGoogleAppSettingDelegate, BuiltUILoginDelegate, BuiltUITwitterAppSettingDelegate>
-//@property (nonatomic, strong)UINavigationController *nvc;
+@property (nonatomic, strong)UINavigationController *nvc;
 @end
 
 
@@ -147,6 +147,9 @@
     project.isAdmin = isAdmin;
     self.nc = [[UINavigationController alloc]initWithRootViewController:project];
     [self.nc.navigationBar setTintColor:[UIColor darkGrayColor]];
+    
+    // Update navigation bar color
+    self.nc.navigationBar.barTintColor = [UIColor colorWithRed:145.0/255.0 green:179.0/255.0 blue:73.0/255.0 alpha:1.0f];
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         project.edgesForExtendedLayout=UIRectEdgeNone;
     }
