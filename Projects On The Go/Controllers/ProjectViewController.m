@@ -85,12 +85,23 @@
     
     self.recDict = [[NSMutableDictionary alloc] init];
     self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
-    self.recDict[@"chipotle"] = @"You should counteract that sugar with some vegetables!";
-    self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
-    self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
+    self.recDict[@"coffee"] = @"You should counteract that caffeine with some water!";
+    self.recDict[@"chicken burrito"] = @"You should counteract the carbs with a run!";
+    self.recDict[@"yam"] = @"You deserve a desert!";
+    self.recDict[@"pizza"] = @"Eat some cherries, blueberries or purple grapes - the dark fruit contains tons of antioxidants that help fight the damage of high-fat foods!";
+    self.recDict[@"cheesecake"] =@"Eat some cherries, blueberries or purple grapes - the dark fruit contains tons of antioxidants that help fight the damage of high-fat foods!";
+    self.recDict[@"soda"] = @"You should counteract that with a 40-minute walk!";
+    
     
     NSLog(@"The value for pie: %@",self.recDict[self.textF.text]);
-    NSString *msg = [[NSString alloc] initWithFormat:@"%@", [self.recDict objectForKey:[[NSString alloc] initWithFormat: @"%@", self.textF.text]]];
+    NSString *msg = @"A";
+    if (self.recDict[self.textF.text] == NULL) {
+        msg = @"What you ate is not in our database. We'll get back to you when we get it!";
+    }
+    else {
+        msg = [[NSString alloc] initWithFormat:@"%@", [self.recDict objectForKey:[[NSString alloc] initWithFormat: @"%@", self.textF.text]]];
+    }
+    
     //NSString *msg = [[NSString alloc] initWithString:self.recDict[self.textF.text]];
     UIAlertView *infoAlert = [[UIAlertView alloc]initWithTitle:@"Recommendation"
                                                        message: msg
