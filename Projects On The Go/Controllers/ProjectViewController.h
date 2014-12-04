@@ -14,4 +14,7 @@
     CGPoint _containerOrigin;
 }
 @property (nonatomic, assign) BOOL isAdmin;
+@property (nonatomic, weak) IBOutlet UITextField *textF;
+
+@property (nonatomic, strong) NSMutableDictionary *recDict;
 @end

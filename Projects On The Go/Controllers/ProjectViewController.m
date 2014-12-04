@@ -28,7 +28,7 @@
 -(id)initWithStyle:(UITableViewStyle)style{
     self = [super initWithStyle:style];
     if (self) {
-        self.title = @"Health Plans";
+        self.title = @"piquant";
         self.enablePullToRefresh = YES;
         self.fetchLimit = 10;
     }
@@ -53,7 +53,52 @@
 //                                              otherButtonTitles:nil];
 //        [alert show];
     }
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
+    // Commented this out
+    //[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"body_bg.png"]]];
+    
+    // Create text field near center (not perfect) and add to current view
+    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(self.view.center.x * .1, self.view.center.y - 100, 275, 50)];
+    tf.textColor = [UIColor whiteColor];
+    tf.font = [UIFont fontWithName:@"Helvetica-Bold" size:25];
+    tf.backgroundColor=[UIColor colorWithRed:145.0/255.0 green:179.0/255.0 blue:73.0/255.0 alpha:1.0f];
+    UIColor *color = [UIColor whiteColor];
+    tf.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"What did you eat?" attributes:@{NSForegroundColorAttributeName: color}];
+    [self.view addSubview:tf];
+    self.textF = tf;
+    
+    
+    //ProjectViewController *proj = [[ProjectViewController alloc] initWithStyle:UITableViewStylePlain withClassUID:@"detail"];
+    
+
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(self.view.center.x, self.view.center.y - 200, 275, 50);
+    [btn setTitle:@"Go!" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnSelected:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    //[btn addTarget:self action:@selector(myAction) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+- (IBAction)btnSelected:(UIButton *)btn {
+    NSLog(@"The data in the text field: %@",self.textF.text);
+    
+    self.recDict = [[NSMutableDictionary alloc] init];
+    self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
+    self.recDict[@"chipotle"] = @"You should counteract that sugar with some vegetables!";
+    self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
+    self.recDict[@"pie"] = @"You should counteract that sugar with some vegetables!";
+    
+    NSLog(@"The value for pie: %@",self.recDict[self.textF.text]);
+    NSString *msg = [[NSString alloc] initWithFormat:@"%@", [self.recDict objectForKey:[[NSString alloc] initWithFormat: @"%@", self.textF.text]]];
+    //NSString *msg = [[NSString alloc] initWithString:self.recDict[self.textF.text]];
+    UIAlertView *infoAlert = [[UIAlertView alloc]initWithTitle:@"Recommendation"
+                                                       message: msg
+                                                      delegate:self
+                                             cancelButtonTitle:@"Cancel"
+                                             otherButtonTitles:@"OK", nil];
+    
+    [infoAlert show];
 }
 
 //UIAlertView with textfield to input the name of the project
