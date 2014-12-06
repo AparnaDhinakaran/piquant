@@ -87,6 +87,7 @@
 		37919085177D6AA40012DC04 /* aud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37919083177D6AA40012DC04 /* aud@2x.png */; };
 		37B74472178AD86B008194E0 /* EditMilestoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B74471178AD86B008194E0 /* EditMilestoneController.m */; };
 		37E6E930177EF6CB00187B7F /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */; };
+		44A1303C1A32D42F000698A5 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1303B1A32D42F000698A5 /* Food.m */; };
 		44B0C0F91A2E92990075B083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B0C0F81A2E92990075B083 /* Images.xcassets */; };
 		A7E6E9821A2C64C800F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E9811A2C64C800F4A6D4 /* Default-568h@2x.png */; };
 		A7E6E98E1A2C7B9F00F4A6D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */; };
@@ -239,6 +240,8 @@
 		37BEF2E11779E18000D7A040 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		37E6E92E177EF6CA00187B7F /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
 		37E6E92F177EF6CB00187B7F /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
+		44A1303A1A32D42F000698A5 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		44A1303B1A32D42F000698A5 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		44B0C0F81A2E92990075B083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Piquant/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		A7E6E9811A2C64C800F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A7E6E98D1A2C7B9F00F4A6D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -569,6 +572,8 @@
 				3766BF5D176F37960082D038 /* ViewController.m */,
 				3766BF5F176F37F70082D038 /* SidebarViewController.h */,
 				3766BF60176F37F70082D038 /* SidebarViewController.m */,
+				44A1303A1A32D42F000698A5 /* Food.h */,
+				44A1303B1A32D42F000698A5 /* Food.m */,
 				376FB8FE17707E92001CC3F0 /* Cells */,
 				3766BF66176F58720082D038 /* Controllers */,
 				373BC7E11772E26C00F6F581 /* Extensions & Categories */,
@@ -761,6 +766,7 @@
 				23323C2E1A1E395900BC79AC /* MBProgressHUD.m in Sources */,
 				BA7E5A8F177320AB000DEB93 /* CreateProjectViewController.m in Sources */,
 				BA7E5A9D17732496000DEB93 /* UsersTableViewController.m in Sources */,
+				44A1303C1A32D42F000698A5 /* Food.m in Sources */,
 				377A59A017741CEE00043933 /* THBubbleColor.m in Sources */,
 				377A59A117741CEE00043933 /* THContactBubble.m in Sources */,
 				377A59A217741CEE00043933 /* THContactPickerView.m in Sources */,
