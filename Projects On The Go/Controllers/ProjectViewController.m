@@ -110,18 +110,34 @@
     NSLog(query);
     //NSString * url = [NSString stringWithFormat:@"%@%@%@", @"http://api.nutritionix.com/v1_1/search/", [[NSString alloc] initWithFormat:@"%@",self.textF.text], query];
     
-    NSString * url = [NSString stringWithFormat:@"%@%@%@", @"http://api.nutritionix.com/v1_1/search/", [[NSString alloc] initWithFormat:@"%@",self.textF.text], @"?results=0%%3A1&fields=*&appId=f515c7d7&appKey=7469e9a1154284f8692fcb7bf20b3335"];
+    NSString * url = [NSString stringWithFormat:@"%@%@%@", @"https://api.nutritionix.com/v1_1/search/", [[NSString alloc] initWithFormat:@"%@",self.textF.text], @"?results=0%%3A1&fields=*&appId=f515c7d7&appKey=7469e9a1154284f8692fcb7bf20b3335"];
     NSLog(url);
     
     //NSURL *dataURL = [NSURL URLWithString: [self URLEncodeString:url]];
     //NSURL* dataURL = [NSURL URLWithString:[url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     //NSURL* dataURL = [NSURL URLWithString:url];
     
-    
+    /*
     NSString* webStringURL = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSLog(webStringURL);
     NSURL* dataURL = [NSURL URLWithString:webStringURL];
+    */
     
+    NSURL* dataURL = [NSURL URLWithString:@"https://api.nutritionix.com/v1_1/item?upc=068437389082&appId=2526144c&appKey=984fd0bfd51a1009cba9bba90a3c47ec" ];
+    
+    /*
+    NSString * escapedUrlString =
+    (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
+                                                        NULL,
+                                                        (CFStringRef)url,
+                                                        NULL,
+                                                        (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+                                                        kCFStringEncodingUTF8 ));
+    NSURL* dataURL = [NSURL URLWithString:escapedUrlString];
+    */
+    
+    //NSLog([dataURL absoluteString]);
+
     //NSURL* dataURL = [NSURL URLWithString:url];
     
     /*
@@ -149,16 +165,6 @@
     */
     NSError *error = nil;
     
-    /*
-    NSData *data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:dataURL cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30] returningResponse:nil error:&error];
-    
-    if (error) {
-        NSLog(@"error: %@", error);
-    } else {
-        
-    }
-    */
-    
     NSURLRequest* request = [NSURLRequest requestWithURL:dataURL];
     NSHTTPURLResponse* response = nil;
     [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
@@ -171,7 +177,8 @@
     NSLog(@"NSURL");
     
     NSError *error1 = nil;
-    //[NSURLConnection sendAsynchronousRequest:request queue:(NSOperationQueue *)queue completionHandler:(void (^)(NSURLResponse*, NSData*, NSError*))handler];
+    
+    
     NSData* jsonData = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:dataURL cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30] returningResponse:nil error:&error1];
     
     
