@@ -118,16 +118,38 @@
     //NSURL* dataURL = [NSURL URLWithString:url];
     
     
+    NSString* webStringURL = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSLog(webStringURL);
+    NSURL* dataURL = [NSURL URLWithString:webStringURL];
     
+    //NSURL* dataURL = [NSURL URLWithString:url];
+    
+    /*
+    NSLog(@"DataURL:");
+    NSLog(dataURL);
+    
+    [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:dataURL] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+        
+        if (error) {
+            //[self.delegate fetchingGroupsFailedWithError:error];
+            NSLog(@"error: %@", error);
+        } else {
+            //[self.delegate receivedGroupsJSON:data];
+            NSLog(@"No Error!");
+        }
+    }];
+    */
     
     if (dataURL == nil) {
         NSLog(@"Nil URL");
     }
+    /*
     NSLog(@"DataURL:");
     NSLog(dataURL);
-    
+    */
     NSError *error = nil;
     
+    /*
     NSData *data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:dataURL cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30] returningResponse:nil error:&error];
     
     if (error) {
@@ -135,27 +157,41 @@
     } else {
         
     }
+    */
     
-    
+    NSURLRequest* request = [NSURLRequest requestWithURL:dataURL];
+    NSHTTPURLResponse* response = nil;
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    if (error) {
+        NSLog(@"error: %@", error);
+    } else {
+        NSLog(@"Connection passed");
+    }
     
     NSLog(@"NSURL");
     
     NSError *error1 = nil;
-    NSData *jsonData = [NSData dataWithContentsOfURL:dataURL options:NSDataReadingUncached
-                                               error:&error1];
+    //[NSURLConnection sendAsynchronousRequest:request queue:(NSOperationQueue *)queue completionHandler:(void (^)(NSURLResponse*, NSData*, NSError*))handler];
+    NSData* jsonData = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:dataURL cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30] returningResponse:nil error:&error1];
+    
+    
+    //NSData *jsonData = [NSData dataWithContentsOfURL:dataURL options:NSDataReadingUncached error:&error1];
     NSLog(@"NSData");
     if (error1) {
         NSLog(@"error: %@", error1);
     } else {
-        
+        NSLog(@"No error on NSURLRequest");
     }
     if (jsonData == nil) {
       NSLog(@"Nil NSData");  
     }
-   
     
     NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error: &error];
+    
     NSLog(@"Dictionary");
+    
+    NSLog(@"%@", [dataDictionary allKeys]);
+    NSLog(@"Keys printed");
     NSArray *array = [dataDictionary objectForKey:@"hits"];
     NSLog(@"%d", [array count]);
     NSDictionary *ingredients = [[array objectAtIndex: 0] objectForKey:@"fields"];
@@ -187,30 +223,7 @@
     [infoAlert show];
 }
 
--(NSString *) URLEncodeString:(NSString *) str
-{
-    
-    NSMutableString *tempStr = [NSMutableString stringWithString:str];
-    [tempStr replaceOccurrencesOfString:@" " withString:@"+" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [tempStr length])];
-    
-    
-    return [[NSString stringWithFormat:@"%@",tempStr] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-}
-/*
-#define CFStringRef charsToEscape = CFSTR(":/&=");
 
-- (NSString *)stringByAddingPercentEscapes
-{
-    return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
-                                                                                 (CFStringRef)self, NULL, charsToEscape,
-                                                                                 CFStringConvertNSStringEncodingToEncoding(NSUTF8StringEncoding)));
-}
-
-- (NSString *)stringByReplacingPercentEscapes
-{
-    return (NSString *)CFBridgingRelease(CFURLCreateStringByReplacingPercentEscapes(kCFAllocatorDefault,(CFStringRef)self, CFSTR("")));
-}
-*/ 
 
 //UIAlertView with textfield to input the name of the project
 - (void)addProject:(id)sender{
